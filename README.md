@@ -4,12 +4,8 @@
 <br>
 By Logan Richardson </h1>
 
-
 A number guessing game based in the Lovecraft mythos.<br>
 This was one of the first coding projects I made for fun.<br>
-
-
-
 
 
 ***
