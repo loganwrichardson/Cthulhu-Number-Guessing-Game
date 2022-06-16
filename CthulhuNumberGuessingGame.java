@@ -6,7 +6,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class GuessMe {
+public class CthulhuNumberGuessingGame {
 	
 	public static void  main(String[] args) {
 	
