@@ -5,8 +5,12 @@
 By Logan Richardson </h1>
 
 A number guessing game based in the Lovecraft mythos.<br>
-This was one of the first coding projects I made for fun.<br>
+This was one of the first coding projects I made for fun.
+<br>
+<br>
 
+#### The Call of Cthulhu
+<a href="https://www.hplovecraft.com/writings/texts/fiction/cc.aspx">Full Text</a> by H.P. Lovecraft
 
 ***
 Future Revision Ideas:<br> 
