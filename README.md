@@ -18,3 +18,7 @@ Future Revision Ideas:<br>
 - Timer
 - Graphics
 - More Insults (Randomly Selected) 
+
+
+Fixes<br>
+Check for non alphanumeric & int out of bounds
