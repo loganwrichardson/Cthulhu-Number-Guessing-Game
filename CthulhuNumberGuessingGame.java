@@ -19,7 +19,7 @@ public class GuessMe {
 		System.out.println("I will allow you to pick the number range of our game.");
 		System.out.println("I will also allow you to leave if you admit defeat by pressing 0.\n");
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.print("Choose an uppper limit of the numbers you will guess from? ");
+		System.out.print("Choose an upper limit of the numbers you will guess from? ");
 
 		int upperBound = keyboard.nextInt();
 
