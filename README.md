@@ -10,7 +10,7 @@ This was one of the first coding projects I made for fun.
 <br>
 
 #### The Call of Cthulhu
-<a href="https://www.hplovecraft.com/writings/texts/fiction/cc.aspx">Full Text</a> by H.P. Lovecraft
+<a href="https://www.hplovecraft.com/writings/texts/fiction/cc.aspx" target="_blank">Full Text</a> by H.P. Lovecraft
 
 ***
 Future Revision Ideas:<br> 
