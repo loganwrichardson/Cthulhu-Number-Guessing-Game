@@ -20,14 +20,20 @@ public class CthulhuNumberGuessingGame {
 		System.out.println("I will also allow you to leave if you admit defeat by pressing 0.\n");
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.print("Choose an upper limit of the numbers you will guess from? ");
+		int upperBound = 0;
+		while (upperBound == 0)
+			try{
+		 		upperBound = keyboard.nextInt();
 
-		int upperBound = keyboard.nextInt();
+			}catch(Exception e){
+				System.out.println("Dumb mortal, that's not a real upperbound\n");
+			}
 
 		do {
 			
-			if (upperBound == 0) {
+			if (upperBound <= 0) {
 				System.out.println("\n\nYou foolishy chose: " + upperBound);
-				System.out.print("Try again mortal, and don't pick 0 this time. ");
+				System.out.print("Try again mortal, and don't pick 0 or something stupid this time. ");
 				upperBound = keyboard.nextInt();
 			}
 			else 
@@ -36,13 +42,22 @@ public class CthulhuNumberGuessingGame {
 		while(upperBound == 0);
 
 		//random # in range 0 inclusive, upperBound exlcusive: [0-upperbound)
-		int secretNumber = (int) Math.floor(Math.random() * upperBound);
+		int secretNumber = (int) Math.floor(Math.random() * (upperBound-1))+1;
 
 		//prompt for and get guess
 		System.out.println("\n\nNow you must guess! 1 to " + (upperBound - 1));
 		System.out.print("Choose wisely, for your very soul depends on it! ");
 
-		int guess = keyboard.nextInt();
+		int guess = 0;
+		int oldGuess = guess;
+
+		while (guess == oldGuess)
+			try{
+				guess = keyboard.nextInt();
+
+			}catch(Exception e){
+				System.out.println("Dumb mortal, that's not a real guess\n");
+			}
 	
 		//compare guess to secret number, tell them if their guess is
 		//too high or too low (to help guide them).
